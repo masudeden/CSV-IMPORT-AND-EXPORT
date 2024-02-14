@@ -1,0 +1,21 @@
+#userDataTable{
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+#userDataTable thead th{
+    border: 1px solid #ddd;
+    padding: 5px;
+    text-align: left;
+}
+
+#userDataTable tbody td{
+    border: 1px solid #ddd;
+    padding: 5px;
+    font-size: 8px;
+}
+
+#userDataTable tbody tr:nth-child(even){
+    background-color: #f2f2f2;;
+}
